@@ -13,10 +13,18 @@ const initialState = {
 export const todoSlice = createSlice({
   name: "todo",
   initialState,
-  reducers: {},
+  reducers: {
+    addTodo: (state, action) => {
+      const todo = {
+        id: Math.random() * 100,
+        task: action.payload,
+        done: false,
+      };
+      state.todos.push(todo);
+    },
+  },
 });
 
-export const { addTodo, deleteTodo, clearAllTodos, toggleTodoDone } =
-  todoSlice.actions;
+export const { addTodo } = todoSlice.actions;
 
 export default todoSlice.reducer;

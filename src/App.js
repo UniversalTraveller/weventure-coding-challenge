@@ -1,5 +1,6 @@
 import { useSelector } from "react-redux";
 import PageTitle from "./components/PageTitle/PageTitle";
+import CreateNew from "./components/CreateNew/CreateNew";
 
 const App = () => {
   const todos = useSelector((state) => state.todo.todos);
@@ -7,7 +8,7 @@ const App = () => {
     <main>
       <PageTitle>WEVENTURE React and Redux Coding Challenge</PageTitle>
 
-      <input type="text" placeholder="What needs to be accomplished today?" />
+      <CreateNew />
 
       <ul>
         {todos.map((todo) => (
