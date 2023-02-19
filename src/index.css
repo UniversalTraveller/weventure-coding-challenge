@@ -16,11 +16,6 @@ main {
   margin: 100px auto;
 }
 
-h1 {
-  font-size: 24px;
-  text-align: center;
-}
-
 input {
   -webkit-appearance: none;
   -moz-appearance: none;
