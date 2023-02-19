@@ -1,6 +1,7 @@
 import { useSelector } from "react-redux";
 import PageTitle from "./components/PageTitle/PageTitle";
 import CreateNew from "./components/CreateNew/CreateNew";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   const todos = useSelector((state) => state.todo.todos);
@@ -19,9 +20,9 @@ const App = () => {
         ))}
       </ul>
 
-      <div className="footer">
+      <Footer>
         <button className="clearAll">Clear all</button>
-      </div>
+      </Footer>
     </main>
   );
 };

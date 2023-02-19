@@ -16,19 +16,6 @@ main {
   margin: 100px auto;
 }
 
-input {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  width: 100%;
-  margin: 40px 0;
-  padding: 15px 20px;
-  font: inherit;
-  color: inherit;
-  border-radius: 5px;
-  border: 0;
-  background: #fff;
-}
-
 ul {
   list-style: none;
 }
@@ -66,14 +53,6 @@ button {
   border: 1px solid #9ab;
   background: transparent;
   cursor: pointer;
-}
-
-.footer {
-  display: flex;
-  justify-content: center;
-  margin-top: 40px;
-  padding-top: 40px;
-  border-top: 1px solid #9ab;
 }
 
 .footer button {
