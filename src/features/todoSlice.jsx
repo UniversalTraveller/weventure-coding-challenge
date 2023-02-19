@@ -22,9 +22,12 @@ export const todoSlice = createSlice({
       };
       state.todos.push(todo);
     },
+    clearAllTodos: (state) => {
+      state.todos = [];
+    },
   },
 });
 
-export const { addTodo } = todoSlice.actions;
+export const { addTodo, clearAllTodos } = todoSlice.actions;
 
 export default todoSlice.reducer;
