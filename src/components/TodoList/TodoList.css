@@ -5,9 +5,13 @@
 .todo-done {
     display: flex;
     align-items: center;
+
+  }
+
+.todo-done span {
     text-decoration: line-through;
     color: #34ce34;
-  }
+}
 
 .todo-undone {
     display: flex;
@@ -17,9 +21,7 @@
 li + li {
     margin-top: 10px;
   }
-  
 
-  
 .task {
     flex: 1;
     margin-right: 10px;
