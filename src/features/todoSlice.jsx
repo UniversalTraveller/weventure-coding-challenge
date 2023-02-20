@@ -2,6 +2,8 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   todos: [
+    // Generate IDs with random for demonstration purpose.
+    // In production a module like nanoid would probably be better.
     { task: "Get up at sunrise", done: true, id: Math.random() * 100 },
     { task: "Eat a healthy breakfast", done: true, id: Math.random() * 100 },
     { task: "Drink plenty of water", done: false, id: Math.random() * 100 },
