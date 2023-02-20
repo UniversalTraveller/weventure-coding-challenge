@@ -1,5 +1,6 @@
 import { useSelector } from "react-redux";
 import Task from "../Task/Task";
+import DeleteButton from "../DeleteButton/DeleteButton";
 import "./TodoList.css";
 
 const TodoList = () => {
@@ -9,7 +10,7 @@ const TodoList = () => {
       {todos.map((todo) => (
         <li key={todo.id} className={"todo-" + (todo.done ? "done" : "undone")}>
           <Task id={todo.id} />
-          <button className="close-button">X</button>
+          <DeleteButton id={todo.id} />
         </li>
       ))}
     </ul>

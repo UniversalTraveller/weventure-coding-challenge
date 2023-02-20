@@ -15,15 +15,3 @@
 li + li {
     margin-top: 10px;
   }
-  
-.close-button {
-    padding: 5px 10px;
-    font-family: inherit;
-    font-size: 14px;
-    text-transform: uppercase;
-    color: #89a;
-    border-radius: 50%;
-    border: 1px solid #9ab;
-    background: transparent;
-    cursor: pointer;
-  }
