@@ -1,11 +1,11 @@
-# Demo of a Todo-App using React and Redux
+# Demo of a To-do-App using React and Redux
 
 This is how the app works:
 
-- a new to-do can be added by pressing the enter key
-- an item can be marked as done by clicking on it
-- an item can be deleted by clicking the "X" button
-- the list can be cleared entirely with the button below
+- A new to-do can be added by pressing the enter key in the input field.
+- An item can be marked as done by clicking on it.
+- An item can be deleted by clicking the "X" button.
+- The list can be cleared entirely with the button below.
 
 That's all. Note that this app doesn't let you save anything.
 
