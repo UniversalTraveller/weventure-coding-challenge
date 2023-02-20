@@ -1,4 +1,5 @@
 import { useSelector } from "react-redux";
+import Task from "../Task/Task";
 import "./TodoList.css";
 
 const TodoList = () => {
@@ -7,7 +8,7 @@ const TodoList = () => {
     <ul className="todo-list">
       {todos.map((todo) => (
         <li key={todo.id} className={"todo-" + (todo.done ? "done" : "undone")}>
-          <span className="task">{todo.task}</span>
+          <Task id={todo.id} />
           <button className="close-button">X</button>
         </li>
       ))}
