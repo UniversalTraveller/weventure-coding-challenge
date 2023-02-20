@@ -5,7 +5,6 @@
 .todo-done {
     display: flex;
     align-items: center;
-
   }
 
 .todo-done span {
