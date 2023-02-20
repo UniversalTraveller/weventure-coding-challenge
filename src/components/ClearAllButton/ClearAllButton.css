@@ -1,3 +1,11 @@
 .clear-all-button {
     border-radius: 5px;
+    padding: 5px 10px;
+    font-family: inherit;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #89a;
+    border: 1px solid #9ab;
+    background: transparent;
+    cursor: pointer;
   }

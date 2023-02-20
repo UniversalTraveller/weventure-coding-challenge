@@ -1,0 +1,42 @@
+.todo-list {
+    list-style: none;
+  }
+  
+.todo-done {
+    display: flex;
+    align-items: center;
+    text-decoration: line-through;
+    color: #34ce34;
+  }
+
+.todo-undone {
+    display: flex;
+    align-items: center;
+  }
+  
+li + li {
+    margin-top: 10px;
+  }
+  
+
+  
+.task {
+    flex: 1;
+    margin-right: 10px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+  }
+  
+.close-button {
+    padding: 5px 10px;
+    font-family: inherit;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #89a;
+    border-radius: 50%;
+    border: 1px solid #9ab;
+    background: transparent;
+    cursor: pointer;
+  }
